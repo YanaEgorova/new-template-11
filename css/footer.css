@@ -1,6 +1,6 @@
-/* .footer__wrapper {
-  background-color: var(--first-brand-color);
-} */
+.footer__wrapper {
+  background-color: var(--third-brand-color);
+}
 .footer {
   padding: 3rem  0;
 }
@@ -46,7 +46,12 @@
 .footer__page-link {
   display: block;
 }
-
+.footer__wrapper .logo span, .footer__wrapper .logo::after, .footer__title, .footer__wrapper .text, .footer__span {
+  color: var(--sub-text-color);
+}
+.footer__text svg {
+  fill: var(--sub-text-color);
+}
 @media screen and (min-width: 768px) {
   .footer__top {
     display: flex;
@@ -68,7 +73,7 @@
     position: absolute;
     width: 100%;
     height: .1rem;
-    background: var(--main-text-color);
+    background: var(--sub-text-color);
     top: 100%;
     left: 0;
     pointer-events: none;
