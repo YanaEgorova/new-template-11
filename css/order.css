@@ -1,6 +1,10 @@
 .orders__block .sub-title {
     padding-bottom: 2rem;
 }
+option {
+    background-color: #000;
+    color: #fff;
+}
 .orders__btn {
     display: flex;
     align-items: center;
