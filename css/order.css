@@ -2,7 +2,7 @@
     padding-bottom: 2rem;
 }
 option {
-    background-color: #000;
+    background-color: rgb(119, 119, 119);
     color: #fff;
 }
 .orders__btn {
