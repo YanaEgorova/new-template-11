@@ -151,7 +151,7 @@ body.error-active .error__overlay {
   height: 100%;
   top: 0;
   background: none;
-  font-size: 4rem;
+  font-size: 2.5rem;
   /* color: var(--sub-text-color); */
   font-family: var(--title-font);
   text-transform: uppercase;
@@ -164,7 +164,7 @@ body.error-active .error__overlay {
 }
 .logo span {
   display: inline-block;
-  font-size: 4rem;
+  font-size: 2.5rem;
   /* color: var(--sub-text-color); */
   font-family: var(--title-font);
   text-transform: uppercase;
